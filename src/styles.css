@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+}
+
+section {
+  width: 15rem;
+  position: relative;
+  padding: 0.25em;
+  padding-bottom: 0;
+  margin: 0.25em;
+}
+
+.display {
+  height: 3rem;
+  width: 100%;
+  border: 1px solid #000;
+  font-size: 2rem;
+  padding: 0.25em;
+  box-sizing: border-box;
+  text-align: right;
+  background-color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+button {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  float: left;
+  margin: 0.25em;
+}
+
+button[disabled] {
+  visibility: hidden;
+}
+
+button:nth-of-type(4n + 0) {
+  background-color: #aaf;
+}
